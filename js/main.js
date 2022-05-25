@@ -22,12 +22,12 @@ function generateField(number) {
 generateField(9);
 
 var buttons = document.querySelectorAll(".btn");
-var sign = 0;
+var turnCount = 0;
 buttons.forEach(function (button) {
   button.addEventListener("click", function (e) {
-    sign++;
+    turnCount++;
     var elem = e.target;
-    elem.innerHTML = sign % 2 === 0 ? "X" : "0";
+    elem.innerHTML = turnCount % 2 === 0 ? "X" : "0";
   });
 });
 
