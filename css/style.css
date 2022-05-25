@@ -1,0 +1,15 @@
+.field {
+  width: 312px;
+  height: 312px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
