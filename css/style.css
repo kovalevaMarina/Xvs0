@@ -67,3 +67,23 @@ body {
   background-color: #002F7D;
   border: 1px solid #091721;
 }
+
+@media (max-width: 350px) {
+  .field {
+    width: 240px;
+    height: 240px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .result {
+    width: 240px;
+  }
+
+  .btn {
+    width: 76px;
+    height: 76px;
+  }
+}
